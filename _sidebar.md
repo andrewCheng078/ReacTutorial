@@ -1,6 +1,5 @@
 
 * [首页](README.md)
-- 了不起的react
 - 了解babel
   - [babel定义和作用](babel/README.md)
 - es6常用语法
