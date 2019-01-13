@@ -1,9 +1,10 @@
 
-* [首页](README)
+* [首页](README.md)
+- 了不起的react
 - 了解babel
-  - [babel定义和作用](babel/README)
+  - [babel定义和作用](babel/README.md)
 - es6常用语法
-  - [es版本列表](es6/es-version)
+  - [es版本列表](es6/es-version.md)
   - [let和const用法](es6/let-const)
   - [import和export-导入导出](es6/import-export)
   - [对象和数组](es6/object-array)
