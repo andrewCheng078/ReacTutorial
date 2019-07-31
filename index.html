@@ -8,17 +8,41 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
+<style>
+  .sidebar-nav{
+    padding-left: 10px;
+  }
+  .sidebar-nav ul li{
+    font-size: 17px!important;
+    font-weight: 500;
+  }
+  .sidebar-nav ul li ul li a{
+    font-size: 16px!important;
+  }
+  .content{
+    font-size: 16px;
+  }
+  .markdown-section pre>code{
+    font-size: 0.9em;
+  }
+  .markdown-section code{
+    font-size: 0.9em;
+  }
+</style>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
+      auto2top: true,
       loadSidebar: true,
       maxLevel: 4,
+      subMaxLevel: 3,
       homepage: 'README.md',
-      name: 'react 教程',
-      repo: ''
+      name: 'React 课程文档',
+      search: 'auto', // 默认值
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
 </body>
 </html>
